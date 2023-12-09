@@ -1,0 +1,58 @@
+.pop_button{
+    font-size: 0.9rem;
+}
+
+#root > button{
+    color: red;
+}
+#root > div > div.wardrobes > div.containerr > div > div > div > div > button{
+   color: rgb(252, 160, 22);
+}
+
+#root > div > div.wardrobes > div.containerr > div > div > div > div > button:hover{
+    color: white;
+}
+
+#Sofas > div.containerr > div > div > div > div > button{
+    color: rgb(252, 160, 22);
+}
+
+#Sofas > div.containerr > div > div > div > div > button:hover{
+    color: white;
+}
+
+#Beds > div.containerr > div > div > div > div > button{
+    color: rgb(252, 160, 22);
+}
+
+#Beds > div.containerr > div > div > div > div > button:hover{
+    color: white;
+}
+
+#Cabinets > div.containerr > div > div > div > div > button{
+    color: rgb(252, 160, 22);
+}
+
+#Cabinets > div.containerr > div > div > div > div > button:hover{
+    color: white;
+}
+
+.popover{
+    --bs-popover-arrow-width: 1rem;
+    --bs-popover-arrow-height: 2rem;
+    margin: 3rem;
+}
+ 
+
+.popover-header{
+    background-color: rgb(82, 8, 8)!important;
+    color: rgb(252, 160, 22);
+    text-align: center;
+}
+
+.popover-body{
+    justify-content: center!important;
+    text-align: center!important;
+    background-color: wheat!important;
+    color: rgb(82, 8, 8)!important;
+}

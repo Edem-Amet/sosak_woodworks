@@ -1,0 +1,41 @@
+.about{
+    border: 0px;
+    margin-top: 3rem;
+}
+
+
+h4{
+    text-align: center;
+    color: rgb(252, 160, 22);
+}
+
+.sk{
+    border-radius: 30px;
+}
+
+.location{
+    font-size: 1.2rem;
+    background-color: white!important;
+    color: rgb(82, 8, 8)!important;
+}
+
+
+.description{
+    font-size: 1rem;
+    background-color: white!important;
+    color: rgb(82, 8, 8)!important;
+}
+
+
+.box{
+    background-color: white;
+    text-align: center;
+    color: rgb(82, 8, 8);
+}
+
+.symbol{
+    font-size: 2.5rem;
+    color: rgb(252, 160, 22);
+    margin-bottom: 0.5rem!important;
+    margin-top: -0.5rem!important;
+}

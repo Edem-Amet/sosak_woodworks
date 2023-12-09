@@ -1,0 +1,115 @@
+
+body{
+    background-color: white!important;
+  
+}
+.container{
+    --bs-gutter-x: 0rem!important;
+    }
+
+    #root > div:nth-child(1) > div > nav > div > button{
+        font-size: 1.2rem!important;
+        background-color: transparent!important;
+    }
+
+
+
+.navbar{
+    background-color: rgb(66, 7, 7)!important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+    margin-bottom: 2rem;
+}
+
+
+span.navbar-toggler-icon{
+   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+}
+/*
+.offcanvas-body{
+ 
+}
+
+*/
+
+a.navbar-brand.fs-4{
+    color:white!important;
+}
+
+a.nav-link{
+    color: white!important;
+    font-size: 0.9rem;
+}
+
+a.nav-link:hover{
+    color: rgb(248, 170, 53)!important;
+}
+
+
+.sidebar{
+    background-color: rgb(66, 7, 7)!important;
+    backdrop-filter: blur(10px);
+    color: white!important;
+    width: 90%!important;
+}
+
+button.btn-close{
+    opacity: 1;
+    border: none;
+    font-size: 1.3rem!important;
+    background-color: transparent!important;
+--bs-btn-close-bg: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%27 0 16 16%27 fill=%27%23fff%27%3e%3cpath d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/%3e%3c/svg%3e");
+}
+
+.btnn{
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: rgb(247, 167, 49);
+    color: rgb(66, 7, 7);
+}
+
+.btnn:hover{
+    background-color: white;
+}
+
+a.nav-link.homesymbol{
+    color: rgb(255, 172, 48)!important;
+}
+
+a.nav-link.homesymbol:hover{
+    color: white!important;
+}
+
+
+#offcanvasNavbar > div.offcanvas-body.d-flex.flex-column.flex-lg-row > div > a:nth-child(1) > button{
+    background-color: rgb(248, 170, 53)!important;
+    font-size: 0.85rem!important;
+}
+
+
+#offcanvasNavbar > div.offcanvas-body.d-flex.flex-column.flex-lg-row > div > a:nth-child(2) > button{
+    background-color: rgb(248, 170, 53)!important;
+    font-size: 0.85rem!important;
+}
+
+
+@media (max-width: 500px){
+    .navbar{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 1200px){
+a.nav-link{
+    font-size: 0.76rem!important;
+}
+}
+/*
+
+#offcanvasNavbar > div.offcanvas-header.border-bottom > button{
+    margin-top: 3%!important;
+   }
+   */
+/* Navbar */
