@@ -1,0 +1,155 @@
+#contact{
+    margin: 3rem;
+    margin-bottom: 5rem;
+}
+
+.contact__container{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 39% 56%;
+    gap: 11%;
+}
+
+.contact__options{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option{
+    background: wheat!important;
+    color: rgb(82, 8, 8);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 0px;
+    transition: var(--transition);
+    border-color: var(--color-primary);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.getin{
+    justify-content: center;
+    text-align: center;
+    margin: 2rem;
+    color: rgb(82, 8, 8);
+}
+
+.getin h4{
+    color: rgb(252, 160, 22);
+}
+
+.contact__option h3{
+    color: rgb(82, 8, 8); 
+}
+
+.contact__option h4{
+    font-size:95%;
+}
+
+.contact__option:hover{
+    background: rgb(248, 222, 173)!important;
+}
+
+.contact__option-icon{
+    font-size: 4rem!important;
+    margin-bottom: 0.5rem;
+}
+
+#contact > div.container.contact__container > div > article:nth-child(1) > svg{
+    font-size: 1.7rem;
+}
+
+
+#contact > div.container.contact__container > div > article:nth-child(2) > svg{
+    font-size: 1.7rem;
+}
+
+
+#contact > div.container.contact__container > div > article:nth-child(3) > svg{
+    font-size: 1.7rem;
+}
+
+
+.contact__option a{
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgb(82, 8, 8);
+}
+
+.contact__option a:hover{
+    color: rgb(252, 160, 22);
+}
+
+
+#contact form > button{
+    background-color: rgb(252, 160, 22);
+    color: rgb(252, 160, 22)!important;
+}
+
+#contact form > button:hover{
+    color: wheat!important;
+}
+
+/*============= FORM ============*/
+form{  
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+
+input, textarea{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: transparent;
+    border: 2px solid rgb(252, 160, 22);
+    resize: none;
+    color: black;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+
+
+/*============ MEDIA QUERIES (MEDIUM DEVICES) =============*/
+@media screen and (max-width: 1024px){
+    .contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/*============ MEDIA QUERIES (SMALL DEVICES) =============*/
+@media screen and (max-width: 500px){
+    .contact__container{
+        width: var(--container-width-sm);
+    }
+
+    #contact > div.container.contact__container > div > article:nth-child(1) > svg{
+        font-size: 1rem;
+    }
+    
+    
+    #contact > div.container.contact__container > div > article:nth-child(2) > svg{
+        font-size: 1rem;
+    }
+    
+    
+    #contact > div.container.contact__container > div > article:nth-child(3) > svg{
+        font-size: 1rem;
+    }
+    
+}
+
+
